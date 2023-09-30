@@ -16,39 +16,35 @@ p {
 .footer__menu{
   background: var(--white);
   display: flex;
+  justify-content: center;
 
   /*Sizing the frame of the navbar*/
   width: 100%;
   height: 7.2rem;
 
   background-color: var(--white);
-
-  justify-content: space-evenly;
   // box-shadow: 0rem -0.2rem -0.5rem var(--drop-shadow);
 }
 
-// .footer__logo{
-//   align-items: ;
-// }
-
 .footer__menu ul li a{
   display:block;
-  align-items: center;
   color: var(--sacramento-state-green);
+  position:relative;
 
   /*Adding gap between items and padding from the border side (TOP,RIGHT,BOTTOM,LEFT)*/
   padding: 1rem 6rem 0.5rem 5rem; /*(TOP,RIGHT,BOTTOM,LEFT)*/
-  position:relative;
+
   font-size: 1.8rem;
+}
+
+.footer__logo img{
+  padding-top: 0.5rem;
+  height: 100%;
+  width: 8rem;
 }
 
 /*Reseting ul default style*/
 .footer__menu ul {
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
 }
-
-// .footer__github__and__names{
-
-// }
