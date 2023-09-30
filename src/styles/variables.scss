@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*
+Google fonts link
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap"
+    rel="stylesheet"
+/>
+
+*/
+
+:root {
+  /* Colors */
+  --green-crayola: #23ba76;
+  --american-green: #27a348;
+  --yellow-green: #26ba23;
+  --sacramento-state-green: #013b23;
+  --spring-frost: #7dff30;
+
+  --white: #ffffff;
+  --black: #000000;
+  --cetacean-blue: #000046;
+  --dark-charcoal: #333333;
+
+  /* Font/text values */
+  --montserrat: "Montserrat", sans-serif;
+}
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    // 768px
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $point == lg {
+    // 1440px
+    @media (min-width: 1440px) {
+      @content;
+    }
+  }
+}
