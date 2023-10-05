@@ -3,73 +3,32 @@ import "./styles.scss";
 const Footer = () => {
 	return (
 		<footer className="footer__menu">
-			<ul>
-				<li>
-					<div className="footer__logo">
-						<a href="#">
-							<img
-								src="src/assets/svg/Logo-footer.svg"
-								alt="GreenSpace logo"
-							/>
-						</a>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="src/assets/svg/Github ico - footer.svg"
-							alt="GitHub icon with the name of the devs"
-						/>
-						<p>Gustavo</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="src/assets/svg/Github ico - footer.svg"
-							alt="GitHub icon with the name of the devs"
-						/>
-						<p>Guilherme</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="src/assets/svg/Github ico - footer.svg"
-							alt="GitHub icon with the name of the devs"
-						/>
-						<p>Kauan</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="src/assets/svg/Github ico - footer.svg"
-							alt="GitHub icon with the name of the devs"
-						/>
-						<p>Vinicius</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="src/assets/svg/Github ico - footer.svg"
-							alt="GitHub icon with the name of the devs"
-						/>
-						<p>Gabriel</p>
-					</a>
-				</li>
-				<li>
-					<div className="footer__logo">
-						<a href="#">
-							<img
-								src="src/assets/svg/CesuscLogo.svg"
-								alt="Cesusc Logo"
-							/>
-						</a>
-					</div>
-				</li>
-			</ul>
+			<a href="#" target="_blank" rel="noopener noreferrer">
+				<img src="src/assets/svg/Logo-footer.svg"></img>
+			</a>
+			<a href="https://github.com/BenoGustavo" target="_blank" rel="noopener noreferrer">
+				<img src="src/assets/png/githubFooter.png"></img>
+				<p>Gustavo</p>
+			</a>
+			<a href="https://github.com/BenoGustavo" target="_blank" rel="noopener noreferrer">
+			<img src="src/assets/png/githubFooter.png"></img>
+				<p>Guilherme</p>
+			</a>
+			<a href="https://github.com/BenoGustavo" target="_blank" rel="noopener noreferrer">
+			<img src="src/assets/png/githubFooter.png"></img>
+				<p>Kauan</p>
+			</a>
+			<a href="https://github.com/BenoGustavo" target="_blank" rel="noopener noreferrer">
+			<img src="src/assets/png/githubFooter.png"></img>
+				<p>Vinicius</p>
+			</a>
+			<a href="https://github.com/BenoGustavo" target="_blank" rel="noopener noreferrer">
+			<img src="src/assets/png/githubFooter.png"></img>
+				<p>Gabriel</p>
+			</a>
+			<a href="https://cesusc.edu.br/" target="_blank" rel="noopener noreferrer">
+				<img src="src/assets/svg/CesuscLogo.svg"></img>
+			</a>
 		</footer>
 	);
 };
