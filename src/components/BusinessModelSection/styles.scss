@@ -1,0 +1,24 @@
+.business__section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 48px;
+  background-image: url("../../assets/svg/BackgroundBusinessModel.svg");
+
+  &__title {
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: bolder;
+    color: var(--white);
+  }
+
+  &__subtitle {
+    padding-left: 15px;
+    color: var(--dark-charcoal);
+  }
+
+  &__img {
+    max-width: 95%;
+    max-height: 95%;
+    margin: 20px 25px;
+  }
+}
