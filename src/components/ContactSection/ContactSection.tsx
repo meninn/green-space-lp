@@ -13,14 +13,14 @@ const ContactSection = () => {
       </div>
 
       <div className="contact__group">
-        <div className="contact__group__link">
+        <div className="contact__group__button">
           <img src={FigmaIcon} alt="Figma's logo" />
           <p>
             Clique aqui para <br />
             ver o nosso figma
           </p>
         </div>
-        <div className="contact__group__link">
+        <div className="contact__group__button">
           <img src={GithubIcon} alt="Github's logo" />
           <p>
             Clique aqui para <br />
