@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./styles.scss"
 
 import BusinessModel from "../../assets/svg/Business_model.svg";
 
