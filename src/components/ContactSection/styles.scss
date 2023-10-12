@@ -25,4 +25,31 @@
       color: var(--dark-charcoal);
     }
   }
+
+  .contact__group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+
+    &__button {
+      width: 100%;
+      max-width: 595px;
+      height: 200px;
+      background-color: var(--white);
+      display: flex;
+      align-items: center;
+      padding: 17px;
+      border-radius: 72px;
+      box-shadow: inset 0px 0px 50px 50px #41c14730, 0px 0px 10px 5px #00000025;
+
+      p {
+        font-size: 32px;
+        font-weight: bolder;
+        color: var(--sacramento-state-green);
+        padding: 7px 17px;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
