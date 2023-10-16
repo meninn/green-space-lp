@@ -30,12 +30,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
+    gap: 77px;
 
     &__button {
       width: 100%;
       max-width: 595px;
-      height: 200px;
+      min-height: 200px;
       background-color: var(--white);
       display: flex;
       align-items: center;
