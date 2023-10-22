@@ -4,7 +4,7 @@ const Header = () => {
   return(
     <header className="navbar__menu">
       
-        <a>
+        <a href='#'>
             <img src="src/assets/svg/Logo.svg" alt="Green Space" />
         </a>
         <nav>
