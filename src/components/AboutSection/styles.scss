@@ -1,7 +1,7 @@
 .about__section {
   width: 100%;
   min-height: 100vh;
-  background-color: var(--white);
+  background-image: url("src/assets/svg/Background_sobre_o_projeto.svg");
   padding: 100px 48px 173px;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   .about__cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
 
     .card {
