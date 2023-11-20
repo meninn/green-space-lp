@@ -1,5 +1,7 @@
 import "./styles.scss";
 
+const URL_TO_SITE = "https://PLACEHOLDERLINK.com";
+
 const HomeSection = () => {
   return (
     <section className="home__section">
@@ -10,14 +12,16 @@ const HomeSection = () => {
           <p>O melhor lugar para se plantar ideias</p>
 
         <div className="contact__group">
-          <div className="contact__group__button">
-            <img src="src/assets/svg/logo-without-name.svg" alt="GreenSpace logo" />
-            <p>
-              Clique aqui para <br />
-              conhecer a <br/>
-              nossa rede
-            </p>
-          </div>
+          <a href={URL_TO_SITE} target="_blank" rel="noopener noreferrer" >
+            <div className="contact__group__button">
+              <img src="src/assets/svg/logo-without-name.svg" alt="GreenSpace logo" />
+              <p>
+                Clique aqui para <br />
+                conhecer a <br/>
+                nossa rede
+              </p>
+            </div>
+          </a>
         </div>
 
         </div>
