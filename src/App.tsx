@@ -1,3 +1,5 @@
+import Header from "./components/Header";
+import { HeaderSpacing } from "./components/Header/Header";
 import HomeSection from "./components/HomeSection";
 import AboutSection from "./components/AboutSection";
 import BusinessModelSection from "./components/BusinessModelSection";
@@ -9,6 +11,8 @@ import "./styles/global.scss";
 const App = () => {
   return (
     <div>
+      <Header/>
+      <HeaderSpacing/>
       <HomeSection />
       <AboutSection />
       <BusinessModelSection />

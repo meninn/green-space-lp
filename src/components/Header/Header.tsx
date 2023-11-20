@@ -15,9 +15,16 @@ const Header = () => {
             <li><a href="#">GITHUB</a></li>
           </ul>
         </nav>
-
   </header>
   )
 }
 
+//Literaly does what the name says
+const HeaderSpacing = () => {
+  return(
+    <div className="navbar__spacing"></div>
+  )
+}
+
+export {HeaderSpacing};
 export default Header;
