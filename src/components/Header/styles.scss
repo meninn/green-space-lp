@@ -13,6 +13,7 @@ a {
   position: fixed;
   background: var(--white);
   display: flex;
+  z-index: 1;
 
   /*Sizing the frame of the navbar*/
   width: 100%;
@@ -24,6 +25,10 @@ a {
   align-items: center;
 
   box-shadow: 0rem 0.2rem 0.5rem var(--drop-shadow);
+
+  &__link {
+    cursor: pointer;
+  }
 }
 
 .navbar__menu img {
@@ -67,4 +72,8 @@ a {
 .navbar__menu ul li a:hover::after{
   width: 50%;
   left: 25%;
+}
+
+.navbar__spacing {
+  height: 7.2rem;
 }
