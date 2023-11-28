@@ -37,6 +37,7 @@
     &__button {
       width: 100%;
       max-width: 595px;
+      min-width: 570px;
       min-height: 200px;
       background-color: var(--white);
       display: flex;
