@@ -22,7 +22,7 @@ const Footer = () => {
         <p>Gustavo</p>
       </a>
       <a
-        href="https://github.com/BenoGustavo"
+        href="https://github.com/luchinivictorino"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -30,7 +30,7 @@ const Footer = () => {
         <p>Guilherme</p>
       </a>
       <a
-        href="https://github.com/BenoGustavo"
+        href="https://github.com/Kauan-Azevedo"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -38,7 +38,7 @@ const Footer = () => {
         <p>Kauan</p>
       </a>
       <a
-        href="https://github.com/BenoGustavo"
+        href="https://github.com/tsvini"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -46,7 +46,7 @@ const Footer = () => {
         <p>Vinicius</p>
       </a>
       <a
-        href="https://github.com/BenoGustavo"
+        href="https://github.com/meninn"
         target="_blank"
         rel="noopener noreferrer"
       >
