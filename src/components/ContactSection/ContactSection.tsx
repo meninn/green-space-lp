@@ -8,7 +8,7 @@ const URL_TO_GITHUB = "https://github.com/meninn/green-space-lp"
 
 const ContactSection = () => {
   return (
-    <section className="contact__section">
+    <section id="figma" className="contact__section">
       <div className="contact__section__header">
         <h2>FIGMA PROTO &&</h2>
         <h2>GITHUB REPO</h2>

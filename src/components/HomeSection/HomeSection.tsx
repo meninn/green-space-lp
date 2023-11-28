@@ -4,7 +4,7 @@ const URL_TO_SITE = "https://PLACEHOLDERLINK.com";
 
 const HomeSection = () => {
   return (
-    <section className="home__section">
+    <section id="home" className="home__section">
       <div className="main__content home__content">
 
         <div className="home__content__text">
