@@ -18,7 +18,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="src/assets/png/githubFooter.png"></img>
+        <img src="../../../public/png/githubFooter.png"></img>
         <p>Gustavo</p>
       </a>
       <a
@@ -26,7 +26,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="src/assets/png/githubFooter.png"></img>
+        <img src="../../../public/png/githubFooter.png"></img>
         <p>Guilherme</p>
       </a>
       <a
@@ -34,7 +34,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="src/assets/png/githubFooter.png"></img>
+        <img src="../../../public/png/githubFooter.png"></img>
         <p>Kauan</p>
       </a>
       <a
@@ -42,7 +42,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="src/assets/png/githubFooter.png"></img>
+        <img src="../../../public/png/githubFooter.png"></img>
         <p>Vinicius</p>
       </a>
       <a
@@ -50,7 +50,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="src/assets/png/githubFooter.png"></img>
+        <img src="../../../public/png/githubFooter.png"></img>
         <p>Gabriel</p>
       </a>
       <a
