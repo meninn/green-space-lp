@@ -1,30 +1,74 @@
-import './styles.scss';
+import { Link } from "react-scroll";
+import "./styles.scss";
 
 const Header = () => {
-  return(
+  return (
     <header className="navbar__menu">
-      
-        <a href='#'>
-            <img src="src/assets/svg/Logo.svg" alt="Green Space" />
-        </a>
-        <nav>
-          <ul>
-            <li><a href="#">SOBRE O PROJETO</a></li>
-            <li><a href="#">BUSINESS MODEL</a></li>
-            <li><a href="#">FIGMA</a></li>
-            <li><a href="#">GITHUB</a></li>
-          </ul>
-        </nav>
-  </header>
-  )
-}
+      <Link
+        className="navbar__menu__link"
+        to="home"
+        spy={true}
+        smooth={true}
+        duration={500}
+      >
+        <img src="src/assets/svg/Logo.svg" alt="Green Space" />
+      </Link>
+      <nav>
+        <ul>
+          <li>
+            <Link
+              className="navbar__menu__link"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              SOBRE O PROJETO
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navbar__menu__link"
+              to="business"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              BUSINESS MODEL
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navbar__menu__link"
+              to="figma"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              FIGMA
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navbar__menu__link"
+              to="footer"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              GITHUB
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
-//Literaly does what the name says
+// Literally does what the name says
 const HeaderSpacing = () => {
-  return(
-    <div className="navbar__spacing"></div>
-  )
-}
+  return <div className="navbar__spacing"></div>;
+};
 
-export {HeaderSpacing};
+export { HeaderSpacing };
 export default Header;

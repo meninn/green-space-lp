@@ -25,6 +25,10 @@ a {
   align-items: center;
 
   box-shadow: 0rem 0.2rem 0.5rem var(--drop-shadow);
+
+  &__link {
+    cursor: pointer;
+  }
 }
 
 .navbar__menu img {
