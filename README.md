@@ -43,13 +43,13 @@ A GreenSpace será um local agradável aos entusiastas de jardinagem,agricultura
 
 <br>
 
-### 🔗 _*url github:*_ https://github.com/BenoGustavo/Green_Space
+### 🔗 _*URL github:*_ <a href="https://github.com/meninn/green-space-lp" target="_blank" rel="noopener noreferrer">REPOSITORY</a>
 
-### 🛬 _*url landpage:*_ https://shre.ink/PrototipoFigma (Prototype of the landing page)
+### 🛬 _*URL landpage:*_ <a href="https://green-space-lp.vercel.app/" target="_blank" rel="noopener noreferrer">LANDING PAGE DEPLOY</a>
 
-### 🤝 _*url Modelo Negócio (imagem):*_ https://shre.ink/BusinessModel
+### 🤝 _*URL Modelo Negócio (imagem):*_ <a href="https://github.com/meninn/green-space-lp/blob/main/public/assets/svg/Business_model.svg" target="_blank" rel="noopener noreferrer">BUSINESS MODEL</a>
 
-### 🗓️ _*url Product Backlog:*_
+### 🗓️ _*URL Product Backlog:*_
 
 <br>
 
@@ -59,9 +59,9 @@ A GreenSpace será um local agradável aos entusiastas de jardinagem,agricultura
 
 <br>
 
-### ⌨️ _*url Protótipo (Figma):*_ https://shorturl.at/aFX18
+### ⌨️ _*URL Protótipo (Figma):*_ <a href="https://www.figma.com/file/22oeLkCZHzc3hnrwP6b0ZJ/GreenSpace?type=design&node-id=0%3A1&mode=design&t=2baiTHfDMgmIq4J5-1" target="_blank" rel="noopener noreferrer">FIGMA PROTÓTIPO</a>
 
-### 📝 _*url Modelagem Sistema:*_
+### 📝 _*URL Modelagem Sistema:*_
 
 ---
 
@@ -71,7 +71,7 @@ A GreenSpace será um local agradável aos entusiastas de jardinagem,agricultura
 
 ### 🖥️ _*Versão do Código no github:*_
 
-### 🎥 _*url vídeo demonstração (código):*_
+### 🎥 _*URL vídeo demonstração (código):*_
 
 ---
 
@@ -81,9 +81,9 @@ A GreenSpace será um local agradável aos entusiastas de jardinagem,agricultura
 
 ### 🖥️ _*Versão do Código no github/heroku/servidor:*_
 
-### 🎞️ _*url vídeo demonstração (pitch ideia):*_
+### 🎞️ _*URL vídeo demonstração (pitch ideia):*_
 
-### 🎥 _*url vídeo demonstração (aplicação rodando):*_
+### 🎥 _*URL vídeo demonstração (aplicação rodando):*_
 
 ---
 
