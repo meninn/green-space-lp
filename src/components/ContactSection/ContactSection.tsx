@@ -1,7 +1,7 @@
 import "./styles.scss";
 
-import FigmaIcon from "../../../public/svg/FIGMA ICO.svg";
-import GithubIcon from "../../../public/svg/GIGTHUB ICO.svg";
+import FigmaIcon from "../../../public/assets/svg/FIGMA ICO.svg";
+import GithubIcon from "../../../public/assets/svg/GIGTHUB ICO.svg";
 
 const URL_TO_FIGMA = "https://www.figma.com/file/22oeLkCZHzc3hnrwP6b0ZJ/GreenSpace?type=design&node-id=0%3A1&mode=design&t=fX0rG0ZqSG94HZ4D-1"
 const URL_TO_GITHUB = "https://github.com/meninn/green-space-lp"

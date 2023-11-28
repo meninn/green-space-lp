@@ -1,4 +1,4 @@
-import TopArrow from "../../../public/svg/goToTopArrow.svg";
+import TopArrow from "../../../public/assets/svg/goToTopArrow.svg";
 import "./styles.scss";
 
 const TopButton = () => {

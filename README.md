@@ -1,8 +1,8 @@
 🍃*GreenSpace* 🍃
 
 <div style="display: flex; justify-content: center;">
-    <img src="public/svg/CesuscLogo.svg" alt="CesuscLogo" style="background-color:#D9D9D9;border-radius:10px;max-width: 100%; height: auto;margin-right:10px;padding: 10px">
-    <img src="public/svg/Logo.svg" alt="GreenSpaceLogo" style="background-color:#D9D9D9;border-radius:10px; max-width: 100%; height: auto;margin-left:10px;padding: 10px">
+    <img src="public/assets/svg/CesuscLogo.svg" alt="CesuscLogo" style="background-color:#D9D9D9;border-radius:10px;max-width: 100%; height: auto;margin-right:10px;padding: 10px">
+    <img src="public/assets/svg/Logo.svg" alt="GreenSpaceLogo" style="background-color:#D9D9D9;border-radius:10px; max-width: 100%; height: auto;margin-left:10px;padding: 10px">
 </div>
 
 ## ✨ _*Sobre o app*_ ✨
