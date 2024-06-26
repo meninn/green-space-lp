@@ -5,8 +5,12 @@
   background-image: url("../../../public/assets/svg/BackgroundBusinessModel.svg");
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
+  align-items: flex-start;
+  /* Align items to the left */
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   &__title {
     padding-top: 2rem;
@@ -25,6 +29,7 @@
     padding-top: 2.5rem;
     max-width: 95%;
     max-height: 95%;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto;
+    /* Center the image horizontally */
   }
 }
