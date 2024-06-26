@@ -1,14 +1,19 @@
 import "./styles.scss";
 
+import diagrams from "../../../public/assets/json/diagrams.json"
+
 import classDiagram from "../../../Documentation/CLASS_DIAGRAM.png"
 import useCaseDiagram from "../../../Documentation/UC.png"
 import useCaseDescriptionDiagram from "../../../Documentation/DESC_UC.png"
 
 const ucDescription = "https://docs.google.com/document/d/1Gmh9i2IhaXiOpuJ1bOBnNenjRdfxV6jK2sRwNl5dC9Q/edit?usp=sharing"
-const ucDiagram = ""
-
 
 const listOfDiagramsImg = [classDiagram, useCaseDiagram, useCaseDescriptionDiagram]
+
+const diagramsObject = diagrams[0]
+
+const classDiagramURL = diagramsObject["class-diagram"]
+const useCaseDiagramURL = diagramsObject["use-case"]
 
 const DiagramsSection = () => {
     return (
@@ -27,18 +32,22 @@ const DiagramsSection = () => {
                     <div className="title">
                         <h3>Diagrama de Classe</h3>
                     </div>
-                    <div className="img-container">
-                        <img src={listOfDiagramsImg[0]} alt="Diagrama de Classe" />
-                    </div>
+                    <a href={classDiagramURL}>
+                        <div className="img-container">
+                            <img src={listOfDiagramsImg[0]} alt="Diagrama de Classe" />
+                        </div>
+                    </a>
                 </div>
 
                 <div className="diagram">
                     <div className="title">
                         <h3>Diagrama de caso de uso</h3>
                     </div>
-                    <div className="img-container">
-                        <img src={listOfDiagramsImg[1]} alt="Diagrama de caso de uso" />
-                    </div>
+                    <a href={useCaseDiagramURL} target="_blank" no-referrer >
+                        <div className="img-container">
+                            <img src={listOfDiagramsImg[1]} alt="Diagrama de caso de uso" />
+                        </div>
+                    </a>
                 </div>
 
                 <div className="diagram">
