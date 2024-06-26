@@ -1,0 +1,71 @@
+/*Making one REM equals 10px */
+html {
+  font-size: 62.5%;
+}
+
+/*Default values for a tags*/
+a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+.section {
+  height: 100vh;
+  background: linear-gradient(to top, var(--american-green), white);
+  padding: 100px 48px 173px;
+}
+
+.title__container h2 {
+  font-size: 64px;
+  font-weight: bolder;
+  color: var(--sacramento-state-green);
+}
+
+.subtitle__container p {
+  font-size: 20px;
+  color: var(--sacramento-state-green);
+}
+
+.diagrams__container {
+  height: calc(100vh - 40rem);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40rem;
+}
+
+.img-container img {
+  width: 100%;
+  aspect-ratio: 1.5 / 1;
+  border-radius: 2rem;
+  border: 0.7rem solid var(--american-green);
+  box-shadow: 0 0 10px 0 var(--sacramento-state-green);
+  transition: all 0.5s;
+}
+
+.img-container img:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px var(--american-green);
+  z-index: 2;
+}
+
+.diagram .title {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.diagram .title h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--sacramento-state-green);
+  text-align: center;
+}

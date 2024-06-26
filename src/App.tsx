@@ -6,17 +6,19 @@ import BusinessModelSection from "./components/BusinessModelSection";
 import ContactSection from "./components/ContactSection";
 import TopButton from "./components/TopButton";
 import Footer from "./components/Footer";
+import Diagrams from "./components/DiagramsSection";
 
 import "./styles/global.scss";
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <HeaderSpacing/>
+      <Header />
+      <HeaderSpacing />
       <HomeSection />
       <AboutSection />
       <BusinessModelSection />
+      <Diagrams />
       <ContactSection />
       <Footer />
       <TopButton />
