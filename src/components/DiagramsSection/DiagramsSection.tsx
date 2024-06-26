@@ -52,6 +52,17 @@ const DiagramsSection = () => {
                     </a>
                 </div>
 
+                <div className="diagram">
+                    <div className="title">
+                        <h3>Entidade relacionamento</h3>
+                    </div>
+                    <a href={ucDescription} target="_blank" no-referrer >
+                        <div className="img-container">
+                            <img src={listOfDiagramsImg[2]} alt="Descrição do diagrama de caso de uso" />
+                        </div>
+                    </a>
+                </div>
+
 
 
             </div>
