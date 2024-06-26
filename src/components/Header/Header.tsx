@@ -1,4 +1,4 @@
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 import "./styles.scss";
 
 import logo from "../../../public/assets/svg/Logo.svg";
@@ -13,7 +13,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
             >
-                <img src={logo} alt="Green Space"/>
+                <img src={logo} alt="Green Space" />
             </Link>
             <nav>
                 <ul>
@@ -37,6 +37,17 @@ const Header = () => {
                             duration={500}
                         >
                             BUSINESS MODEL
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            className="navbar__menu__link"
+                            to="diagrams"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
+                            UML
                         </Link>
                     </li>
                     <li>
@@ -72,5 +83,5 @@ const HeaderSpacing = () => {
     return <div className="navbar__spacing"></div>;
 };
 
-export {HeaderSpacing};
+export { HeaderSpacing };
 export default Header;
