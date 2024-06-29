@@ -32,7 +32,7 @@ const DiagramsSection = () => {
                     <div className="title">
                         <h3>Diagrama de Classe</h3>
                     </div>
-                    <a href={classDiagramURL}>
+                    <a href={classDiagramURL} target="_blank">
                         <div className="img-container">
                             <img src={listOfDiagramsImg[0]} alt="Diagrama de Classe" />
                         </div>
