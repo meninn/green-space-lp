@@ -6,14 +6,16 @@ import classDiagram from "../../../Documentation/CLASS_DIAGRAM.png"
 import useCaseDiagram from "../../../Documentation/UC.png"
 import useCaseDescriptionDiagram from "../../../Documentation/DESC_UC.png"
 
-const ucDescription = "https://docs.google.com/document/d/1Gmh9i2IhaXiOpuJ1bOBnNenjRdfxV6jK2sRwNl5dC9Q/edit?usp=sharing"
+import entityRelationshipDiagramImage from "../../../Documentation/ER_ICON.png"
 
-const listOfDiagramsImg = [classDiagram, useCaseDiagram, useCaseDescriptionDiagram]
+const listOfDiagramsImg = [classDiagram, useCaseDiagram, useCaseDescriptionDiagram, entityRelationshipDiagramImage]
 
 const diagramsObject = diagrams[0]
 
 const classDiagramURL = diagramsObject["class-diagram"]
 const useCaseDiagramURL = diagramsObject["use-case"]
+const ucDescription = diagramsObject["use-case-descritive"]
+const entityRelationshipDiagram = diagramsObject["entity-relationship"]
 
 const DiagramsSection = () => {
     return (
@@ -25,9 +27,6 @@ const DiagramsSection = () => {
                 </div>
             </div>
             <div className="diagrams__container">
-
-
-
                 <div className="diagram">
                     <div className="title">
                         <h3>Diagrama de Classe</h3>
@@ -65,15 +64,12 @@ const DiagramsSection = () => {
                     <div className="title">
                         <h3>Entidade relacionamento</h3>
                     </div>
-                    <a href={ucDescription} target="_blank" no-referrer >
+                    <a href={entityRelationshipDiagram} target="_blank" no-referrer >
                         <div className="img-container">
-                            <img src={listOfDiagramsImg[2]} alt="Descrição do diagrama de caso de uso" />
+                            <img src={listOfDiagramsImg[3]} alt="Diagrama de entidade e relacionamento" />
                         </div>
                     </a>
                 </div>
-
-
-
             </div>
         </section >
     );
